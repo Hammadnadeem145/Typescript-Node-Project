@@ -21,7 +21,7 @@ function deposit(amount) {
     account.balance += amount;
     console.log(`You have deposited $${amount}. Your new balance is $${account.balance}`);
 }
-function main() {
+function Atm() {
     console.log("Welcome to the ATM!");
     console.log("What would you like to do?");
     console.log("1. Check Balance");
@@ -55,4 +55,4 @@ function main() {
         }
     });
 }
-main();
+Atm();
