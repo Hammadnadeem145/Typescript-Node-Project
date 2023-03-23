@@ -3,7 +3,7 @@ import chalk from "chalk";
 
 console.log(chalk.redBright("Word Counter"));
 
-const wordCounter: { sentences: string } = await inquirer.prompt([
+const wordCounter: { words: string } = await inquirer.prompt([
   {
     name: "sentneces",
     type: "input",
@@ -11,7 +11,7 @@ const wordCounter: { sentences: string } = await inquirer.prompt([
   },
 ]);
 
-const words = wordCounter.sentences.trim();
-const result = words.split(" ");
+const word = wordCounter.words.trim();
+const result = word.split(" ");
 
 console.log(`Your Word Count is ${result.length}`);
