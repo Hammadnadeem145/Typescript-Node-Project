@@ -3,7 +3,7 @@ import chalk from "chalk";
 
 const randomNum = Math.floor(Math.random() * 10);
 
-console.log(chalk.bgGreen("Number Guessing Game"));
+console.log(chalk.bgRed("Number Guessing Game"));
 
 async function guessGame() {
   const guess: { userGuess: number } = await inquirer.prompt([
