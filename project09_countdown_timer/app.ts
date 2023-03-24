@@ -1,6 +1,6 @@
 import chalk from "chalk";
 import inquirer from "inquirer";
-import { finished } from "stream";
+
 
 console.log(chalk.bgBlueBright('COUNTDOWN TIMER'));
 
